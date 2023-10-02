@@ -1,13 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
   <head>
-    <title>Parcel Sandbox</title>
     <meta charset="UTF-8" />
+    <meta name="author" content="Juan Carlos" />
+    <meta name="keywords" content="page, plans, terms, html, css." />
+    <meta name="description" content="Componente de uma página de Planos & Termos, para prática de HTML e CSS." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles/global.css" />
+    <title>Planos & Termos</title>
   </head>
-
   <body>
-    <div id="app"></div>
+    <form>
+      <fieldset>
+        <legend>Escolha o plano que combina com você</legend>
+        <input type="radio" id="standard-plan" name="plan"/>
+        <label for="standard-plan">standard</label>
+        <p>Ideal para usuários que desejam uma solução acessível e funcional. Com este plano, você terá acesso a recursos essenciais, como suporte básico, atualizações essenciais e capacidade limitada. É perfeito para quem busca uma solução prática para suas necessidades diárias.</p>
+        <input type="radio" id="advanced-plan" name="plan" checked/>
+        <label for="advanced-plan-plan">premium</label>
+        <p>Plano completo, com suporte 24/7 via chat e telefone, atualizações constantes com novos recursos exclusivos, além de personalização avançada para atender às suas necessidades específicas e elevar o nível de sua experiência, com o máximo de nossos serviços.
 
-    <script src="./index.js" type="module"></script>
+
+
+
+
+</p>
+
+        <input type="checkbox" id="terms" name="terms" required/>
+        <label for="terms">Eu concordo com os <a href="/termos-e-condicoes">Termos & Condições</a>.</label>
+        <input type="checkbox" id="marketing" name="marketing" />
+        <label for="marketing">Eu concordo em receber e-mail marketing.</label>
+        
+        <button>contratar</button>
+        <span></span>
+        
+
+      </fieldset>
+    </form>
   </body>
 </html>
