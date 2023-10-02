@@ -1,0 +1,9 @@
+.form {
+  background-color: white;
+  margin: auto;
+  width: min(73rem, 87%);
+}
+
+.form__title {
+  font-size: 2rem;
+}

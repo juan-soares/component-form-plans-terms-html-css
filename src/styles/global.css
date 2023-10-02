@@ -1,15 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import "./form.css";
+
 :root {
   --primary-color: #DFEBEB;
-  --text-color: #10131C;
 }
 
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
 }
 
 body {
   background-color: var(--primary-color);
-  color: var(--text-color);
+  font-family: 'Poppins';
+  font-size: 1.6rem; 
 }
+
