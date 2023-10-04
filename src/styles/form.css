@@ -1,9 +1,114 @@
 .form {
   background-color: white;
+  border-radius: 3.2rem;
+  box-shadow: 0 0 4.8rem rgb(0 0 0 / 0.1);
   margin: auto;
+  padding: 9rem;
   width: min(73rem, 87%);
+}
+
+form * {
+  font-size: 1.4rem;
+}
+
+.form__content {
+  border: 0;
 }
 
 .form__title {
   font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.form__plan-option {
+  background-color: var(--primary-color-100);
+  border: 1px solid var(--primary-color-200);
+  border-radius: 1.6rem;
+  display: flex;
+  gap: 1rem;
+  padding: 2.4rem;
+}
+
+.form__plan-option:not(:has(:checked)) {
+  opacity: 0.6;
+}
+
+.form__plan-option input[type="radio"] {
+  border-radius: 50%;
+}
+
+.form__plan-title {
+  font-size: 1.8rem;
+  line-height: 0;
+  text-transform: uppercase;
+}
+
+.form__plan-title:hover {
+  cursor: pointer;
+}
+
+.form__plan-description {
+  margin-top: 1rem;
+}
+
+.form__checkbox-options {
+  align-items: flex-start;
+  display: flex;
+  gap: 1rem;
+}
+
+.form__checkbox-options *:hover {
+  cursor: pointer;
+}
+
+.form__checkbox-options input[type="checkbox"] {
+  border-radius: 30%;
+  position: relative;
+}
+
+.form__checkbox-options input[type="checkbox"]:checked::before {
+  content: "✔️";
+  font-size: 2rem;
+  position: absolute;
+  top: -0.4rem;
+  left: 0rem;
+}
+
+.form__plan-option input[type="radio"],
+.form__checkbox-options input[type="checkbox"] {
+  appearance: none;
+  background-color: white;
+  border: 1px solid var(--primary-color-300);
+  height: 2rem;
+  width: 2rem;
+  padding: 1rem;
+}
+
+.form__plan-option input[type="radio"]:checked {
+  background-image: radial-gradient(white, 40%, black 40%);
+}
+
+.form__plan-option,
+.form__checkbox-options {
+  margin-top: 2.5rem;
+  padding-left: 2.4rem;
+}
+
+.form__plan-option + .form__checkbox-options {
+  margin-top: 6rem;
+}
+
+.form__button-submit {
+  background-color: black;
+  color: white;
+  margin-top: 6rem;
+  padding-block: 2rem;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.form__button-submit:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  transition: opacity 0.5s;
 }

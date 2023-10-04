@@ -11,30 +11,34 @@
   </head>
   <body>
     <form class="form">
-      <fieldset>
+      <fieldset class="form__content">
         <legend class="form__title">Escolha o plano que combina com você</legend>
-        <input type="radio" id="standard-plan" name="plan"/>
-        <label for="standard-plan">standard</label>
-        <p>Ideal para usuários que desejam uma solução acessível e funcional. Com este plano, você terá acesso a recursos essenciais, como suporte básico, atualizações essenciais e capacidade limitada. É perfeito para quem busca uma solução prática para suas necessidades diárias.</p>
-        <input type="radio" id="advanced-plan" name="plan" checked/>
-        <label for="advanced-plan-plan">premium</label>
-        <p>Plano completo, com suporte 24/7 via chat e telefone, atualizações constantes com novos recursos exclusivos, além de personalização avançada para atender às suas necessidades específicas e elevar o nível de sua experiência, com o máximo de nossos serviços.
+        <div class="form__plan-option">
+          <input type="radio" id="standard-plan" name="plan"/>
+          <div>
+          <label for="standard-plan" class="form__plan-title">standard</label>
+          <p class="form__plan-description">Plano de serviços básico. Neste plano, você terá acesso a recursos essenciais, como suporte básico, atualizações essenciais e capacidade limitada. É perfeito para quem busca uma solução prática para a rotina diária.</p>
+          </div>  
+        </div>
+        <div class="form__plan-option">
+          <input type="radio" id="advanced-plan" name="plan" checked/>
+          <div>
+          <label for="advanced-plan" class="form__plan-title">premium</label>
+          <p class="form__plan-description">Plano completo e personalizado. Nele, oferecemos suporte 24/7 via chat e telefone, atualizações constantes e recursos exclusivos. Voltado para elevar ao máximo, o nível de sua experiência.</p>
+          </div>  
+        </div>
 
+       <div class="form__checkbox-options">
+          <input type="checkbox" id="terms" name="terms" required/>
+          <label for="terms">Eu concordo com os <a href="/termos-e-condicoes">Termos & Condições</a>.</label>
+        </div>
+        <div class="form__checkbox-options">
+          <input type="checkbox" id="marketing" name="marketing" />
+          <label for="marketing">Eu concordo em receber e-mail marketing.</label>
+        </div>
 
-
-
-
-</p>
-
-        <input type="checkbox" id="terms" name="terms" required/>
-        <label for="terms">Eu concordo com os <a href="/termos-e-condicoes">Termos & Condições</a>.</label>
-        <input type="checkbox" id="marketing" name="marketing" />
-        <label for="marketing">Eu concordo em receber e-mail marketing.</label>
-        
-        <button>contratar</button>
+        <button class="form__button-submit">contratar</button>
         <span></span>
-        
-
       </fieldset>
     </form>
   </body>
