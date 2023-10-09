@@ -24,10 +24,15 @@
 
 
 ## Features
+* Responsive design,
+* Custom radio input, with custom radio button;
+* Highlight on selected option;
+* Custom checkbox input, with custom marker on checked status.
+
 
 
 ## How to use
-- `Step 1`: Donwload the project's files.
+- `Step 1`: Download the project's files.
 - `Step 2`: Execute the "index.html" file on any browser.
 
 
