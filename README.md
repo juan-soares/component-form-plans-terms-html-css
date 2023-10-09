@@ -10,31 +10,25 @@
 * 🔨 [Features](#features)
 * 📋 [How to use](#how-to-use)
 * :octocat: [Authors](#authors)
-
-
+&nbsp;
 
 ## Description
 <p>Componente de página de Planos & Termos, para prática de HTML e CSS.</p>
-
-
+&nbsp;
 
 ## Demo
-
-
+&nbsp;
 
 ## Technologies
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="60px" height="60px" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="60px" height="60px"/>
-
-
+&nbsp;
 
 ## Features
 * Responsive design,
 * Custom radio input, with custom radio button;
 * Highlight on selected option;
 * Custom checkbox input, with custom marker on checked status.
-
-
-
+&nbsp;
 
 ## How to use
 - `Step 1`: Download the project's files.
