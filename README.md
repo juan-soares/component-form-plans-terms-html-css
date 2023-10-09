@@ -1,8 +1,8 @@
 # 📌 COMPONENT: PLANS & TERMS PAGE (HTML / CSS)
 
-![Badge_Status](https://img.shields.io/badge/STATUS-CONCLUIDO-green)
-![Badge_Versao](https://img.shields.io/badge/VERS%C3%83O-1.0-black)
-![Badge_Data](https://img.shields.io/badge/DATA-SETEMBRO%2C2023-blue)
+![Badge_Status](https://img.shields.io/badge/STATUS-FINISHED-green)
+![Badge_Versao](https://img.shields.io/badge/VERSION-1.0-black)
+![Badge_Data](https://img.shields.io/badge/RELEASE-OCT,2023-blue)
 
 * 📑 [Descrição](#descrição)
 * 🔛 [Demo](#demo)
