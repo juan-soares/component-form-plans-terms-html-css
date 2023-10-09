@@ -33,8 +33,7 @@
 ## How to use
 - `Step 1`: Download the project's files.
 - `Step 2`: Execute the "index.html" file on any browser.
-
-
+&nbsp;
 
 ## Authors
 | [<img src="https://avatars.githubusercontent.com/u/97527277" width=115><br><sub>Juan Carlos</sub>](https://github.com/juan-soaraes) |
