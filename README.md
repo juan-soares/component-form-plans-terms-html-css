@@ -14,7 +14,7 @@
 * :octocat: [Authors](#authors)
 
 ## Description
-<p>Componente de página de Planos & Termos, para prática de HTML e CSS.</p>
+Page to practice HTML elements and CSS selectors, containing a form with custom fields, so user can choose a service plan and accept Terms & Conditions.
 
 ## Demo
 ![](demo/demo.gif)
